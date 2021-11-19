@@ -7,7 +7,7 @@ public class ArrayRotation {
 
     public static void leftRotate(int[] array, int d){
         int length = array.length;
-        if(d <= 0){
+        if(d <= 0 || d == length){
             return;
         }
         int i = 0;
